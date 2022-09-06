@@ -8,9 +8,9 @@ class GoogleSuggestions extends Component {
   }
 
   updateSearchInput = value => {
-    this.setState(
+    this.setState({
       searchInput: value,
-    )
+    })
   }
 
   onChangeSearchInput = e => {
